@@ -1,9 +1,14 @@
 import Navigation from '@components/navigation'
+import Head from 'next/head'
 import Image from 'next/image'
 
 const HelloThere = () => (
   <>
     <Navigation />
+    <Head>
+      <title>Hello There</title>
+      <meta property="og:title" content="Hello There" />
+    </Head>
     <article>
       <h1>Hello There</h1>
       <Image
